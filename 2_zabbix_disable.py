@@ -7,7 +7,7 @@ import re
 #выполнить подключние к zabbix и выполение запросов
 def zabbix_connect():
     try:
-      zabbix_connect= ZabbixAPI('http://172.20.103.201', user='zero',password='1alexander2')
+      zabbix_connect= ZabbixAPI('http://172.20.103.201', user='user',password='pass')
       return zabbix_connect
     except:
       return ('')
